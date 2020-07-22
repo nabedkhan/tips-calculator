@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.calculate{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.result{
+	display: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+section input, button{
+    border: 0 !important;
+}
+section input:focus, button:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
